@@ -7,10 +7,8 @@
 }
 
 .diceBox{
-    width: 10%;
+    width: 20%;
     height: 400px;
-    background-color: grey;
-    border: black 1px solid;
     font-family: 'Orbitron', sans-serif;
 }
 
@@ -49,3 +47,23 @@
     display: block;;
 
 }
+
+button{
+    background-color: white;
+    color: blue;
+    margin: auto;
+    display: block;
+}
+
+#diceimage{
+    display: none;
+    width:100px;
+    height: 100px;
+
+}
+
+#diceBox{
+    width:100px;
+    height: 100px;
+}
+
