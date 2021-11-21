@@ -14,3 +14,10 @@ function show(){
     roundscore=roundscore+dice;
     document.getElementById("roundscore-0").innerText=roundscore;  
 }
+var scoreBox =0;
+var holdbtn =document.getElementById("hold");
+holdbtn.addEventListener("click", hold);
+function hold(){
+    document.getElementById("scoreBox-0").innerText=roundscore;
+    document.getElementById("roundscore-0").innerText=0;
+}
